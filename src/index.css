@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h5 {
+  font-family: 'Libre Franklin', sans-serif;
+  text-transform: uppercase;
+  line-height: .8;
+  font-size: 15px;
+  padding-left: 5vw;
+}
+
+.nft-title {
+  padding-left: 31vw;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.wallet-content-title {
+  position: absolute;
+  bottom: 26%;
+  left: 18%;
+  font-size: 1.2rem;
+}
+
+.wallet-company {
+  padding-bottom: 40px;
+  border-bottom: .5px solid black;
+}
+
+.f-left {
+  float: left;
+}
+
+.wallet-box {
+  position: absolute;
+  cursor: pointer;
+  bottom: 5%;
+  left: 10%;
+  align-items: center;
+  background-color: #6515a9;
+  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.1),
+    -8px -8px 12px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin-right: 4rem;
+  width: 200px;
+}
+
+.wallet-body {
+  width: 25vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 5;
+  background-color: #6515a9;
+}
+
+.nft-collection {
+  width: 60vw!important;
+  position: relative;
+  left: 10vw;
+}
+
+
+button {
+  position: relative;
+  left: 5vw;
+  display:inline-block;
+  padding:0.5em 3em;
+  border:0.16em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:400;
+  color:#000000;
+  text-align:center;
+  transition: all 0.15s;
+
+}
+
+button:hover{
+  color:#DDDDDD;
+  border-color:#DDDDDD;
+}
+
+.logged-in {
+  position: relative;
+  top: 5%;
+  left: 8%;
+  width: 100%;
+}
+
+.user-name {
+  position: relative;
+  top: 8px;
+  font-size: 1.2rem;
+}
+
+.bored-toan {
+  width: 90px;
+}
+
+.clickable {
+  text-align: center;
+  bottom: 0;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.clickable:hover {
+  color:seagreen;
+  transform:scale(1.05);
+}
+
